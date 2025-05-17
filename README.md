@@ -36,10 +36,12 @@ The app allows users to browse and book events, while admins can manage all even
 ```bash
 git clone https://github.com/ahmedhikal2002/Event-app_01030686625.git
 cd Event-app_01030686625
+---
 
 ## 2. Install dependencies
 npm install
 
+---
 
 ## 3.  Create your .env file
 In the root directory, create a .env file and add your Firebase config:
