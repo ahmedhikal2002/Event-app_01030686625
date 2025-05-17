@@ -1,12 +1,34 @@
-# React + Vite
+## preview https://chat-app-666a8.web.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎟️ Event Booking Frontend
+## to login as admin you must use email admin@admin.com and password 12345678
 
-Currently, two official plugins are available:
+This is the frontend for the Event Booking App, built using **React**, **Redux Toolkit**, **Tailwind CSS**, and **Firebase**.  
+The app allows users to browse and book events, while admins can manage all events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Firebase Authentication (User & Admin)
+- 📋 Admin Dashboard (Add / Update / Delete events)
+- 🛒 Book events with real-time feedback
+- 📦 Firestore integration for storing bookings and events
+- 🎨 Responsive design using Tailwind CSS
+- 🔄 Lottie animation for loading state
+
+---
+
+## 🛠️ Technologies Used
+
+- **React 18**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Firebase (Auth + Firestore + Storage)**
+- **Lottie-react**
+
+---
+
+
+
