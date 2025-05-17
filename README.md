@@ -33,11 +33,11 @@ The app allows users to browse and book events, while admins can manage all even
 
 ## 1. Clone the repository
 
-
+```
 git clone https://github.com/ahmedhikal2002/Event-app_01030686625.git
 cd Event-app_01030686625
 ---
-
+```
 
 ## 2. Install dependencies
 npm install
@@ -46,6 +46,7 @@ npm install
 
 ## 3.  Create your .env file
 In the root directory, create a .env file and add your Firebase config:
+
 VITE_REACT_APP_API_KEY=your_api_key
 VITE_REACT_APP_AUTH_DOMAIN=your_auth_domain
 VITE_REACT_APP_PROJECT_ID=your_project_id
