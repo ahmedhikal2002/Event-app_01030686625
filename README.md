@@ -65,8 +65,8 @@ Throughout development, ChatGPT was used for assistance with:
 - Writing and refining Redux logic
 - Tailwind component styling
 - Form validation with Yup
-https://github.com/ahmedhikal2002/Event-app_01030686625/blob/main/src/assets/Ai.JPG
- ![ChatGPT usage](./main/src/assets/Ai.JPG)
+
+ ![ChatGPT usage](./src/assets/Ai.JPG)
 
 
 
