@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.event-list {
+  @apply bg-Primary-light dark:bg-primary-dark text-primary-dark dark:text-Primary-light 
+  rounded-md shadow-md my-4 p-4 block md:flex md:justify-between md:items-center mx-2 md:mx-0;
+}
+.event-list .event-details {
+  @apply block md:flex md:gap-3;
+}
+.event-list .event-details .event-panner {
+  @apply w-[150px] h-[150px] border border-gray-500 dark:border-gray-400 rounded-lg overflow-hidden;
+}
+.event-list .event-details .event-panner img {
+  @apply w-full h-full rounded-lg object-cover;
+}
+
+.event-list .event-details .event-info {
+  @apply flex gap-2 flex-col flex-[0.75];
+}
+.more-info {
+  @apply flex gap-2 text-xs md:text-sm font-normal md:font-semibold;
+}
+h3 {
+  @apply font-bold text-xl;
+}
+.category {
+  @apply px-2 py-1 rounded-sm bg-blue-300 text-blue-500 w-fit font-bold;
+}
+.more-info img {
+  @apply w-5;
+}
+.event-list .btn-delete {
+  @apply bg-red-500 hover:bg-red-600 transition-colors mx-0;
+}
+
+.event-list .btn-update {
+  @apply bg-yellow-500 dark:bg-blue-500  hover:bg-yellow-600 dark:hover:bg-blue-600 transition-colors mx-0;
+}
+
+.event-user {
+  @apply text-center;
+}
+.event-list-user {
+  @apply bg-gradient-to-br from-gray-200 via-gray-100 to-gray-50  dark:from-gray-900 dark:via-gray-800 dark:to-gray-700
+   shadow-lg border border-gray-300 dark:border-gray-500 text-primary-dark dark:text-Primary-light rounded-2xl p-4 
+  transition-all duration-300 hover:scale-110 w-[280px];
+}
+.event-list-user .event-user .event-panner {
+  @apply w-60 h-60 border-gray-900 dark:border-gray-500 rounded-lg mb-2;
+}
+.event-list-user .event-user .event-panner img {
+  @apply w-full h-full object-cover rounded-lg;
+}
+
+.event-list-user .more-info {
+  @apply flex-col text-gray-600 items-center dark:text-gray-400;
+}
+.event-list-user .more-info img {
+  @apply hidden;
+}
+.btn-user {
+  @apply bg-gradient-to-r from-blue-500 via-sky-500 to-sky-600 w-full;
+}

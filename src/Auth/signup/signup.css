@@ -1,0 +1,3 @@
+.from {
+  @apply w-11/12 p-2 mx-auto md:w-[600px] md:px-4 pt-20 pb-[60px] border-2 border-slate-300 rounded-md;
+}

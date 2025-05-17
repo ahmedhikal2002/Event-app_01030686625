@@ -1,0 +1,7 @@
+.main {
+  @apply flex gap-11 flex-wrap justify-center lg:justify-start;
+}
+
+.main .cancel-btn {
+  @apply hidden;
+}

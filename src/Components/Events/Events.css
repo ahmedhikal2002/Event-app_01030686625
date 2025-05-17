@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.events {
+  @apply flex gap-10 mt-10 flex-wrap md:flex-nowrap justify-center md:justify-start;
+}
+
+.event-detail {
+  @apply flex flex-col gap-3 text-primary-dark dark:text-Primary-light px-5 lg:px-0  w-fit;
+}
+.event-detail .price {
+  @apply text-gray-500 font-semibold block dark:text-gray-300;
+}
+
+.event-detail .event-more-info {
+  @apply flex gap-3 text-xs text-gray-500  font-semibold dark:text-gray-300;
+}
+
+.events .btn.btn-user {
+  @apply w-full md:w-1/2;
+}

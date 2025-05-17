@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  @apply outline-none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  @apply min-h-screen bg-gray-100 dark:bg-gray-800 relative;
+}
+
+.header a {
+  @apply font-semibold transition-all duration-200 hover:text-blue-400 hover:underline;
+}
+
+.header .active {
+  @apply text-blue-500;
+}
+
+label {
+  @apply block font-semibold my-2 text-primary-dark dark:text-Primary-light;
+}
+
+.form-filed {
+  @apply w-full  border-2 border-slate-200 dark:border-slate-500 p-[6px] rounded-sm block dark:bg-gray-600 dark:text-Primary-light;
+}
+
+form {
+  @apply border-slate-200 dark:border-slate-500 dark:bg-gray-800;
+}
+.input-err {
+  @apply w-full  border-2 bg-red-50 border-red-500 rounded-sm block p-[6px];
+}
+input,
+textarea {
+  @apply focus:shadow-input-shadow dark:focus:ring-2 dark:focus:ring-blue-500;
+}
+
+.flex-gap {
+  @apply flex gap-3 items-center;
+}
+
+.flex-cen {
+  @apply flex justify-center items-center;
+}
+
+.flex-bet {
+  @apply flex justify-between items-center;
+}
+
+.flex-column {
+  @apply flex justify-center items-center flex-col;
+}
+.btn {
+  @apply px-4 py-2 border-0 font-semibold text-Primary-light
+   bg-btn-color cursor-pointer rounded-md block m-auto pt-2
+   mt-5 transition-all hover:bg-btn-hover disabled:opacity-60 disabled:cursor-not-allowed active:scale-95;
+}
+.wrapper {
+  @apply absolute  w-full min-h-full top-0 bg-[#b2b2b44f];
+}
+
+.from .link {
+  @apply text-blue-500 underline block w-fit mx-auto mt-2;
+}

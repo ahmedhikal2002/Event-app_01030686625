@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  @apply bg-Primary-light dark:bg-primary-dark text-primary-dark shadow-2xl  mt-10 rounded-lg py-8 font-semibold;
+}
+
+.footer .footer-container {
+  @apply px-4 flex flex-col md:flex-row justify-between items-center gap-6;
+}
+
+.footer .footer-container .footer-logo {
+  @apply text-xl  transition-colors duration-150 font-bold text-primary-dark dark:text-Primary-light hover:text-blue-500;
+}
+
+.footer .footer-container .link {
+  @apply transition-colors duration-200 hover:underline hover:text-blue-500  text-primary-dark dark:text-Primary-light;
+}
