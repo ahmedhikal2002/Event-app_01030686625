@@ -1,6 +1,6 @@
 ## Live preview https://chat-app-666a8.web.app
 
-# 🎟️ Event Booking Frontend
+# 🎟️ Event Booking App
 ## to login as admin you must use email admin@admin.com and password 12345678
 
 This is the frontend for the Event Booking App, built using **React**, **Redux Toolkit**, **Tailwind CSS**, and **Firebase**.  
