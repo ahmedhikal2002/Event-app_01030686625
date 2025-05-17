@@ -31,6 +31,15 @@ The app allows users to browse and book events, while admins can manage all even
 ---
 ## 📦 Installation & Setup
 
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/ahmedhikal2002/Event-app_01030686625.git
+cd Event-app_01030686625
+---
+
+
+
 
 
 
