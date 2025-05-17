@@ -1,4 +1,4 @@
-## preview https://chat-app-666a8.web.app
+## Live preview https://chat-app-666a8.web.app
 
 # 🎟️ Event Booking Frontend
 ## to login as admin you must use email admin@admin.com and password 12345678
