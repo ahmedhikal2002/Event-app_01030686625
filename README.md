@@ -40,13 +40,15 @@ cd Event-app_01030686625
 ```
 
 ## 2. Install dependencies
+```
 npm install
-
+```
 ---
 
-## 3.  Create your .env file
+## 3.  Create your .env.local file
 In the root directory, create a .env file and add your Firebase config:
 
+```
 VITE_REACT_APP_API_KEY=your_api_key
 VITE_REACT_APP_AUTH_DOMAIN=your_auth_domain
 VITE_REACT_APP_PROJECT_ID=your_project_id
@@ -54,10 +56,11 @@ VITE_REACT_APP_STORAGE_BUCKET=your_storage_bucket
 VITE_REACT_APP_MESSAGING_SENDER_ID=your_sender_id
 VITE_REACT_APP_APP_ID=your_app_id
 
-
+```
 ### 4. Run the development server
+```
 npm run dev
-
+```
 
 ## 🤖 AI Tools Used
 
